@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="background-container">
+        <div class="background-image image1"></div>
+        <div class="background-image image2"></div>
+        <div class="background-image image3"></div>
+    </div>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Enter city name...">
+            <button id="search-button">Search</button>
+        </div>
+
+        <div class="current-info">
+            <div class="date-container">
+                <div class="time" id="time">Loading...</div>
+                <div class="date" id="date">Loading...</div>
+                <div class="others" id="current-weather-items"></div>
+            </div>
+            <div class="place-container">
+                <div class="time-zone" id="time-zone">Loading...</div>
+                <div id="country" class="country">Loading...</div>
+            </div>
+        </div>
+
+        <div class="future-forecast">
+            <div class="today" id="current-temp">
+                <img src="" alt="weather icon" class="w-icon">
+                <div class="other">
+                    <div class="day">Loading...</div>
+                    <div class="temp">Temperature - Loading...</div>
+                </div>
+            </div>
+            <div class="weather-forecast" id="weather-forecast"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
